@@ -1,0 +1,13 @@
+.navbar {
+    & .navbar-start {
+        margin: 0 auto;
+        text-align: center;
+        font-size: $default-font-size;
+    }
+}
+
+.fakeDiv {
+    height: 30vh;
+    width: 100vw;
+    background-color: red;
+}

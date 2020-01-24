@@ -1,0 +1,16 @@
+.description {
+    margin: 3rem;
+}
+
+section {
+    & .reverse-row-order {
+        @include respond(phone) {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        @include respond(tab-port) {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+}

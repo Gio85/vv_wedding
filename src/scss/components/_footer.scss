@@ -1,0 +1,9 @@
+.footer {
+    background-color: white;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    & .paragraph {
+        font-size: 1.5rem;
+        font-family: 'Courier New', sans-serif;
+    }
+}
