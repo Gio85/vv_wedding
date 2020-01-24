@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "www.veravincenzo2020.com/static/css/main.d1b05096.chunk.css",
-    "main.js": "www.veravincenzo2020.com/static/js/main.c88583ad.chunk.js",
-    "main.js.map": "www.veravincenzo2020.com/static/js/main.c88583ad.chunk.js.map",
-    "runtime-main.js": "www.veravincenzo2020.com/static/js/runtime-main.075edb01.js",
-    "runtime-main.js.map": "www.veravincenzo2020.com/static/js/runtime-main.075edb01.js.map",
-    "static/js/2.1f07b838.chunk.js": "www.veravincenzo2020.com/static/js/2.1f07b838.chunk.js",
-    "static/js/2.1f07b838.chunk.js.map": "www.veravincenzo2020.com/static/js/2.1f07b838.chunk.js.map",
-    "index.html": "www.veravincenzo2020.com/index.html",
-    "precache-manifest.1e7975b824548d7495208d39c22dd089.js": "www.veravincenzo2020.com/precache-manifest.1e7975b824548d7495208d39c22dd089.js",
-    "service-worker.js": "www.veravincenzo2020.com/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "www.veravincenzo2020.com/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.1f07b838.chunk.js.LICENSE": "www.veravincenzo2020.com/static/js/2.1f07b838.chunk.js.LICENSE",
-    "static/media/logo.svg": "www.veravincenzo2020.com/static/media/logo.5d5d9eef.svg"
+    "main.css": "www.veravincenzo2020.com/test/static/css/main.d1b05096.chunk.css",
+    "main.js": "www.veravincenzo2020.com/test/static/js/main.f0c8fabb.chunk.js",
+    "main.js.map": "www.veravincenzo2020.com/test/static/js/main.f0c8fabb.chunk.js.map",
+    "runtime-main.js": "www.veravincenzo2020.com/test/static/js/runtime-main.b9e3cc40.js",
+    "runtime-main.js.map": "www.veravincenzo2020.com/test/static/js/runtime-main.b9e3cc40.js.map",
+    "static/js/2.1f07b838.chunk.js": "www.veravincenzo2020.com/test/static/js/2.1f07b838.chunk.js",
+    "static/js/2.1f07b838.chunk.js.map": "www.veravincenzo2020.com/test/static/js/2.1f07b838.chunk.js.map",
+    "index.html": "www.veravincenzo2020.com/test/index.html",
+    "precache-manifest.e6412a32afa21675935e5f54aef49a95.js": "www.veravincenzo2020.com/test/precache-manifest.e6412a32afa21675935e5f54aef49a95.js",
+    "service-worker.js": "www.veravincenzo2020.com/test/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "www.veravincenzo2020.com/test/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.1f07b838.chunk.js.LICENSE": "www.veravincenzo2020.com/test/static/js/2.1f07b838.chunk.js.LICENSE",
+    "static/media/logo.svg": "www.veravincenzo2020.com/test/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.075edb01.js",
+    "static/js/runtime-main.b9e3cc40.js",
     "static/js/2.1f07b838.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.c88583ad.chunk.js"
+    "static/js/main.f0c8fabb.chunk.js"
   ]
 }
