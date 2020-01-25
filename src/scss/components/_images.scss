@@ -1,23 +1,20 @@
 .is-3by2 {
-    width: 300px;
-    height: 250px;
-    margin: auto;
+  width: 300px;
+  height: 250px;
+  margin: auto;
 }
 
 .bridal_image {
-    width:  100px;
-    height: 100px;
-    background-size: cover;
-    margin: auto;
-    & img {
-        border-radius: 50%;
-    }
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  margin: auto;
 }
 
 .vera_vincenzo {
-    background-repeat: no-repeat;
-    background-image: url('/images/vera_vincenzo/IMG_0001.JPG');
-    background-position: center; /* Center the image */
-    height: 45vh;
-    width: 85vw;
+  background-repeat: no-repeat;
+  background-image: url('/images/vera_vincenzo/IMG_0001.JPG');
+  background-position: center; /* Center the image */
+  height: 45vh;
+  width: 85vw;
 }

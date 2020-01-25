@@ -1,14 +1,14 @@
 .hero {
-    align-items: center;
-    text-align: center;
+  align-items: center;
+  text-align: center;
 
-    & .title {
-        font-size: 8rem;
-        font-family: $default-font-family;
-    }
+  & .title {
+    font-size: 6rem;
+    font-family: $default-font-family;
+  }
 
-    & .countdown {
-        font-size: 5rem;
-        font-family: $default-font-family;
-    }
+  & .countdown {
+    font-size: 5rem;
+    font-family: $default-font-family;
+  }
 }
