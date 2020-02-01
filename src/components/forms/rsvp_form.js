@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const RsvpForm = ({ handleSubmit, bindFirstName, bindLastName, bindEmail, bindIsComing, bindFoodAllergies }) => {
+export const RsvpForm = ({ handleSubmit, bindFirstName, bindLastName, bindEmail, bindIsComing, bindNotes }) => {
   return (
     <div className="rsvpForm is-half">
       <form onSubmit={handleSubmit}>
@@ -36,9 +36,9 @@ export const RsvpForm = ({ handleSubmit, bindFirstName, bindLastName, bindEmail,
         </div>
 
         <div className="field">
-          <label className="label">Food Allergies</label>
+          <label className="label">Notes</label>
           <div className="control is-medium">
-            <textarea className="textarea" placeholder="Textarea" name="foodAllergies" {...bindFoodAllergies} required />
+            <textarea className="textarea" placeholder="Textarea" name="notes" {...bindNotes} required />
           </div>
         </div>
 

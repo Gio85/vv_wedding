@@ -11,11 +11,11 @@ export default function RSVP(props) {
   const { value: lastName, bind: bindLastName, reset: resetLastName } = useInput('')
   const { value: email, bind: bindEmail, reset: resetEmail } = useInput('')
   const { value: isComing, bind: bindIsComing, reset: resetIsComing } = useInput('')
-  const { value: foodAllergies, bind: bindFoodAllergies, reset: resetFoodAllergies } = useInput('')
+  const { value: notes, bind: bindNotes, reset: resetNotes } = useInput('')
 
   const handleSubmit = () => {
     Axios({
-      url: `${url}?firstName=${firstName}&lastName=${lastName}&email=${email}&isComing=${isComing}&foodAllergies=${foodAllergies}`,
+      url: `${url}?firstName=${firstName}&lastName=${lastName}&email=${email}&isComing=${isComing}&notes=${notes}`,
       method: 'get',
     })
       .then(() => props.history.push('/thanks'))
@@ -23,7 +23,7 @@ export default function RSVP(props) {
     resetFirstName()
     resetLastName()
     resetEmail()
-    resetFoodAllergies()
+    resetNotes()
     resetIsComing()
   }
 
@@ -34,7 +34,7 @@ export default function RSVP(props) {
       bindLastName={bindLastName}
       bindEmail={bindEmail}
       bindIsComing={bindIsComing}
-      bindFoodAllergies={bindFoodAllergies}
+      bindNotes={bindNotes}
     />
   )
 }

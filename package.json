@@ -31,8 +31,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged",
-      "pre-push": "yarn deploy"
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "browserslist": {

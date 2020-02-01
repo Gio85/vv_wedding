@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 
 import MenuNavbar from './components/nav-bar/navbar'
 import Header from './components/header/header'
@@ -20,7 +20,7 @@ import './scss/style.scss'
 
 function App() {
   return (
-    <Router basename="public">
+    <HashRouter>
       <div className="container">
         <MenuNavbar />
         {/* DONE */}
@@ -38,7 +38,7 @@ function App() {
         </Switch>
       </div>
       <Footer />
-    </Router>
+    </HashRouter>
   )
 }
 
