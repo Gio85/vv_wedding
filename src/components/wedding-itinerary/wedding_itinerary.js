@@ -1,28 +1,29 @@
-import React from 'react';
+import React from 'react'
 
 export default function WeddingItinerary() {
-    return (
-        <section className="hero">
-            <div className="hero-body">
-                <h1 className="hWeddingItinerary">
-                    Ceremony, Cocktail, Reception and Party
-                </h1>
-                <p className="paragraphWeddingItinerary">
-                    Quinta Casa Portuguesa – Colares, Sintra
-                </p>
-                <p className="paragraphWeddingItinerary">
-                    Please join us at 16:30 to begin the celebration
-                </p>
-                <div className="mapWeddingItinerary">
-                    <iframe
-                        title="ti"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d403662.2975946813!2d-8.52216388930153!3d37.77570202614716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1a5be016857d61%3A0x76f90bcac7ccf011!2sConcei%C3%A7%C3%A3o%2C%207670-011%20Ourique%2C%20Portugal!5e0!3m2!1sen!2suk!4v1575209202901!5m2!1sen!2suk"
-                        width="600"
-                        height="450"
-                        frameBorder="0"
-                    ></iframe>
-                </div>
-            </div>
-        </section>
-    );
+  return (
+    <div className="column">
+      <div className="hero">
+        <div className="hero-body">
+          <h1 className="hWeddingItinerary"> Ceremony, Cocktail, Reception and Party </h1>
+          <p className="paragraphWeddingItinerary"> Quinta Casa Portuguesa – Colares, Sintra Estrada Nacional N247, 2705-655 </p>
+          <p className="paragraphWeddingItinerary"> Please join us at 16:00 to begin the celebration! </p>
+          <p className="paragraphWeddingItinerary">
+            Dress code: Formal attire The ceremony will be held outdoors, so we advise ladies not to wear any stiletto high heels. Temperatures may
+            also drop in the evening, so please bring a little something to keep you warm!
+          </p>
+        </div>
+      </div>
+      <div className="mapWeddingItinerary">
+        <iframe
+          title="location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49756.983224713986!2d-9.498577322855613!3d38.79095656081532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ece7534ec342f%3A0xc141684ae435b078!2sQuinta%20Casa%20Portuguesa!5e0!3m2!1sen!2suk!4v1580672092761!5m2!1sen!2suk"
+          width="600"
+          height="450"
+          frameBorder="0"
+          allowFullScreen=""
+        ></iframe>
+      </div>
+    </div>
+  )
 }

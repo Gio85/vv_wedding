@@ -13,13 +13,13 @@ export const BridesMaids = () => {
         <div className="column">
           <h3 className="heading-tertiary">Violeta</h3>
           <figure className="image bridal_image">
-            <img class="is-rounded" src="/images/brides_maids/IMG_0010.JPG" alt="bride" />
+            <img className="is-rounded" src="/images/brides_maids/IMG_0010.JPG" alt="bride" />
           </figure>
         </div>
         <div className="column">
           <h3 className="heading-tertiary">Sara</h3>
           <figure className="image bridal_image">
-            <img class="is-rounded" src="/images/brides_maids/IMG_0016.JPG" alt="bride" />
+            <img className="is-rounded" src="/images/brides_maids/IMG_0016.JPG" alt="bride" />
           </figure>
         </div>
       </div>
@@ -28,19 +28,19 @@ export const BridesMaids = () => {
         <div className="column">
           <h3 className="heading-tertiary">Camille</h3>
           <figure className="image bridal_image">
-            <img class="is-rounded" src="/images/brides_maids/camille.JPG" alt="bride" />
+            <img className="is-rounded" src="/images/brides_maids/camille.JPG" alt="bride" />
           </figure>
         </div>
         <div className="column">
           <h3 className="heading-tertiary">Stella</h3>
           <figure className="image bridal_image">
-            <img class="is-rounded" src="/images/brides_maids/IMG_5334.JPG" alt="bride" />
+            <img className="is-rounded" src="/images/brides_maids/IMG_5334.JPG" alt="bride" />
           </figure>
         </div>
         <div className="column">
           <h3 className="heading-tertiary">Danielle</h3>
           <figure className="image bridal_image">
-            <img class="is-rounded" src="/images/brides_maids/IMG_4171.JPG" alt="bride" />
+            <img className="is-rounded" src="/images/brides_maids/IMG_4171.JPG" alt="bride" />
           </figure>
         </div>
       </div>

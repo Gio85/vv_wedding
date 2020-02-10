@@ -12,7 +12,7 @@ export const Groomsman = () => {
         <div className="column">
           <h3 className="heading-tertiary">Michele & Gianfranco</h3>
           <div className="image bridal_image">
-            <img class="is-rounded" src="/images/grooms_man/theBrothers.JPG" alt="brothers" />
+            <img className="is-rounded" src="/images/grooms_man/theBrothers.JPG" alt="brothers" />
           </div>
         </div>
       </div>
@@ -20,19 +20,19 @@ export const Groomsman = () => {
         <div className="column ">
           <h3 className="heading-tertiary">Davide</h3>
           <div className="image bridal_image">
-            <img class="is-rounded" src="/images/grooms_man/davide.JPG" alt="davide" />
+            <img className="is-rounded" src="/images/grooms_man/davide.JPG" alt="davide" />
           </div>
         </div>
         <div className="column">
           <h3 className="heading-tertiary">Giovanni</h3>
           <div className="image bridal_image">
-            <img class="is-rounded" src="/images/grooms_man/giovanni.jpg" alt="giovanni" />
+            <img className="is-rounded" src="/images/grooms_man/giovanni.jpg" alt="giovanni" />
           </div>
         </div>
         <div className="column">
           <h3 className="heading-tertiary">Francesco</h3>
           <div className="image bridal_image">
-            <img class="is-rounded" src="/images/grooms_man/francesco.JPG" alt="francesco" />
+            <img className="is-rounded" src="/images/grooms_man/francesco.JPG" alt="francesco" />
           </div>
         </div>
       </div>

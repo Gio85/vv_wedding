@@ -6,7 +6,7 @@ export default function Home() {
     <section className="hero">
       <div className="hero-body">
         <div className="countdown">
-          <h1 className="countdown">
+          <h1>
             <CountdownTimer timeTillDate="2020-07-04 17:00:00" timeFormat="YYYY-MM-DD HH:mm" />
           </h1>
         </div>
