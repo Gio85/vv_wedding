@@ -1,23 +1,39 @@
+.hero-body {
+  padding-top: 5rem !important;
+}
+
 .hWeddingItinerary {
-    font-size: 4rem;
-    font-weight: bold;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 .paragraphWeddingItinerary {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .paragraphRegistry {
-    font-size: 2.5rem;
-    margin-bottom: 4rem;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
 }
 
 .hRegistry {
-    font-weight: 100;
-    font-size: 6.8rem;
+  font-weight: 100;
+  font-size: 6.8rem;
 }
 
-.mapWeddingItinerary {
-    margin-top: 5rem;
-    padding-bottom: 0;
+.location {
+  margin-top: -50px;
+  margin-bottom: -50px !important;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 100%;
+  margin-top: 0;
+  & iframe {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 70%;
+  }
 }
