@@ -4,9 +4,10 @@ export default function OurStory() {
   return (
     <section className="hero">
       <div className="ourStory">
+        <p className="storyParagraph">A slightly different story to most, but this is our unique one.</p>
         <p className="storyParagraph">
-          A slightly different story to most, but this is our unique one. It all begun back in 2013, in fair London we set our scene, in the fancy
-          neighbourhood of South Kensington. Some said it was destiny, some said it was love but we like to call it “magic”.
+          It all begun back in 2013, in fair London we set our scene, in the fancy neighbourhood of South Kensington. Some said it was destiny, some
+          said it was love but we like to call it “magic”.
         </p>
         <p className="storyParagraph">
           It was only another noisy day in the Italian restaurant, Carluccios, but that day Vincenzo and Vera’s life was about to change.
@@ -26,15 +27,17 @@ export default function OurStory() {
         <p className="storyParagraph">
           The first attempts from the Italian chap were, actually, very crap, but soon Vera decided to start. Beauty too rich for use, for Earth too
           dear. Every day he tried.
-          <p className="storyParagraph">
-            Written notes and broken verse. The two lovers engaged in a mix of Italo-Portu-Spanish language and a whole lot of hand gestures. The
-            destiny finally worked in their favour.
-          </p>
         </p>
+        <p className="storyParagraph">
+          Written notes and broken verse. The two lovers engaged in a mix of Italo-Portu-Spanish language and a whole lot of hand gestures. The
+          destiny finally worked in their favour.
+        </p>
+
         <p className="storyParagraph">
           Fast forward 6 years later, off they go to embark in yet another adventure – And live the rest of their lives together!
         </p>
       </div>
+      <div id="heart" />
     </section>
   )
 }

@@ -7,15 +7,6 @@
   font-weight: bold;
 }
 
-.paragraphWeddingItinerary {
-  font-size: 2.5rem;
-}
-
-.paragraphRegistry {
-  font-size: 2.5rem;
-  margin-bottom: 4rem;
-}
-
 .hRegistry {
   font-weight: 100;
   font-size: 6.8rem;
@@ -24,16 +15,35 @@
 .location {
   margin-top: -50px;
   margin-bottom: -50px !important;
+  padding: 2rem;
+  @include respond(tab-scape) {
+    margin-top: -40px;
+  }
+
+  @include respond(tab-port) {
+    margin-top: -30px;
+  }
+  @include respond(phone) {
+    margin-top: -30px;
+  }
 }
 
-.videoWrapper {
+.locationWrapper {
   position: relative;
   padding-bottom: 100%;
   margin-top: 0;
+  @include respond(tab-scape) {
+    margin-top: 0px;
+  }
+  @include respond(tab-port) {
+  }
+  @include respond(phone) {
+    margin-top: -70px;
+  }
   & iframe {
     position: absolute;
     top: 15%;
     width: 100%;
-    height: 70%;
+    height: 69%;
   }
 }

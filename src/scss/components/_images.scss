@@ -10,11 +10,24 @@
   margin: auto;
 }
 
+.is-bordered {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
 .vera_vincenzo {
   background-repeat: no-repeat;
-  background-image: url('/images/vera_vincenzo/IMG_0001.JPG');
   background-size: cover;
   background-position: center;
-  height: 55vh;
-  width: 85vw;
+  height: 60vh;
+  width: 80vw;
+  opacity: 1;
+  -webkit-transition: background 1.5s ease-in-out;
+  -moz-transition: background 1.5s ease-in-out;
+  -o-transition: background 1.5s ease-in-out;
+  -ms-transition: background 1.5s ease-in-out;
+  transition: background 1.5s ease-in-out;
+  -webkit-backface-visibility: hidden;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, withRouter } from 'react-router-dom'
+import { Link, withRouter, NavLink } from 'react-router-dom'
 
 let isActive = false
 
@@ -10,7 +10,7 @@ const toggleClass = () => {
 export function Navbar() {
   return (
     <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-      <Link
+      <NavLink
         to=""
         role="button"
         className={isActive ? 'navbar-burger is-active' : 'navbar-burger'}
@@ -22,30 +22,30 @@ export function Navbar() {
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
-      </Link>
+      </NavLink>
       <div id="navbarBasicExample" className={!isActive ? 'navbar-menu' : 'navbar-menu is-active'}>
         <div className="navbar-start">
-          <Link to="/" className="navbar-item" onClick={() => toggleClass()}>
+          <NavLink exact to="/" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
             Home
-          </Link>
-          <Link to="/our_story" className="navbar-item" onClick={() => toggleClass()}>
+          </NavLink>
+          <NavLink to="/our_story" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
             Where it all began
-          </Link>
-          <Link to="/bridal_party" className="navbar-item" onClick={() => toggleClass()}>
+          </NavLink>
+          <NavLink to="/bridal_party" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
             Bridal Party
-          </Link>
-          <Link to="/wedding_itinerary" className="navbar-item" onClick={() => toggleClass()}>
+          </NavLink>
+          <NavLink to="/wedding_itinerary" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
             4th July 2020
-          </Link>
-          <Link to="/recommendations" className="navbar-item" onClick={() => toggleClass()}>
+          </NavLink>
+          <NavLink to="/recommendations" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
             Where to stay
-          </Link>
-          <Link to="/registry" className="navbar-item" onClick={() => toggleClass()}>
+          </NavLink>
+          <NavLink to="/registry" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
             Honeymoon
-          </Link>
-          <Link to="/rsvp" className="navbar-item" onClick={() => toggleClass()}>
+          </NavLink>
+          <NavLink to="/rsvp" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
             RSVP
-          </Link>
+          </NavLink>
         </div>
       </div>
     </nav>

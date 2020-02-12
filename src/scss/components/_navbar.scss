@@ -1,13 +1,23 @@
 .navbar {
-    & .navbar-start {
-        margin: 0 auto;
-        text-align: center;
-        font-size: $default-font-size;
-    }
+  background-image: linear-gradient(to right, $color-1-gradient, $color-2-gradient) !important;
+  & .navbar-start {
+    margin: 0 auto;
+    text-align: center;
+    font-size: $default-font-size;
+  }
+}
+
+.navbar-menu {
+  background-image: linear-gradient(to right, $color-1-gradient, $color-2-gradient) !important;
+}
+
+.currentPage {
+  background-color: #fafafa;
+  color: #3273dc;
 }
 
 .fakeDiv {
-    height: 30vh;
-    width: 100vw;
-    background-color: red;
+  height: 30vh;
+  width: 100vw;
+  background-color: red;
 }

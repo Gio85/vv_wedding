@@ -78,6 +78,24 @@ body {
   font-size: $default-small-font-size;
 }
 
+.paragraphLocations {
+  font-size: $default-font-size;
+  margin-bottom: 0 !important;
+}
+
+.airport {
+  font-weight: bold;
+}
+
+.paragraphWeddingItinerary {
+  font-size: 2.5rem;
+}
+
+.paragraphRegistry {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
 .paragraphQuote {
   margin-top: 5rem;
   font-size: $default-quote-font-size;
