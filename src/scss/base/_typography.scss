@@ -60,11 +60,16 @@ body {
 }
 
 .heading-tertiary {
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+}
+
+.heading-lowercase {
+  text-transform: lowercase;
+  font-weight: normal;
 }
 
 .paragraph {
@@ -79,7 +84,7 @@ body {
 }
 
 .paragraphLocations {
-  font-size: $default-font-size;
+  font-size: 2rem;
   margin-bottom: 0 !important;
 }
 
@@ -105,17 +110,10 @@ body {
   font-size: $our-story-font-size;
 }
 
-.skills-primary {
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  display: inline-block;
-  // background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-  -webkit-background-clip: text;
-  color: $color-white;
-  border-bottom: 1px solid $color-white;
+.ourStoryHeader {
+  font-style: italic;
+  font-size: $our-story-font-size;
 }
-
 .bold {
   font-weight: bold;
 }

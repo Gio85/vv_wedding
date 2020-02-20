@@ -22,7 +22,7 @@
   background-size: cover;
   background-position: center;
   height: 60vh;
-  width: 80vw;
+  width: 60vw;
   opacity: 1;
   -webkit-transition: background 1.5s ease-in-out;
   -moz-transition: background 1.5s ease-in-out;
@@ -30,4 +30,5 @@
   -ms-transition: background 1.5s ease-in-out;
   transition: background 1.5s ease-in-out;
   -webkit-backface-visibility: hidden;
+  -webkit-transform: scale(1);
 }

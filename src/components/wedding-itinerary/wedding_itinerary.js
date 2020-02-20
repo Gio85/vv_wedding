@@ -8,9 +8,19 @@ export default function WeddingItinerary() {
           <h1 className="hWeddingItinerary"> Ceremony, Cocktail, Reception and Party </h1>
           <p className="paragraphWeddingItinerary"> Quinta Casa Portuguesa – Colares, Sintra Estrada Nacional N247, 2705-655 </p>
           <p className="paragraphWeddingItinerary"> Please join us at 16:00 to begin the celebration! </p>
+          <br />
+          <br />
           <p className="paragraphWeddingItinerary">
-            <b>Dress code:</b> Formal attire The ceremony will be held outdoors, so we advise ladies not to wear any stiletto high heels. Temperatures
-            may also drop in the evening, so please bring a little something to keep you warm!
+            <b>Dress code:</b>
+          </p>
+          <p className="paragraphWeddingItinerary">Formal attire </p>
+          <br />
+          <br />
+          <p className="paragraphWeddingItinerary is-italic">
+            The ceremony will be held outdoors, so we advise ladies not to wear any stiletto high heels.
+          </p>
+          <p className="paragraphWeddingItinerary is-italic">
+            Temperatures may also drop in the evening, so please bring a little something to keep you warm!
           </p>
         </div>
       </div>

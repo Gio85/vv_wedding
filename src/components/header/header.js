@@ -4,11 +4,11 @@ export default function Header() {
   const [image, setImage] = useState('IMG_0001')
   const [index, setIndex] = useState(0)
   const images = [
-    'IMG_0001',
+    'IMG_0697',
     '4July2',
     'bridalParty1',
     'bridalParty2',
-    'honeyMoon1',
+    // 'honeyMoon1',
     'honeyMoon2',
     'IMG_0002',
     'IMG_0003',
@@ -17,14 +17,13 @@ export default function Header() {
     'IMG_0012',
     'IMG_0018',
     'IMG_0019',
-    // 'IMG_1283',
     'ourStory',
     'ourStory1',
     'ourStory2',
     'rsvp1',
     'rsvp2',
-    // 'whereToStay1',
     'whereToStay2',
+    'IMG_0001',
   ]
   useEffect(() => {
     const interval = setInterval(() => {
@@ -34,7 +33,7 @@ export default function Header() {
         setIndex(index => index + 1)
       }
       setImage(images[index])
-    }, 2800)
+    }, 4500)
     return () => clearInterval(interval)
   }, [images, index])
 

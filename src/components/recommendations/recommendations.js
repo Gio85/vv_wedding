@@ -5,9 +5,11 @@ export default function Recommendations() {
     <section className="hero">
       <div className="hero-body">
         <h1 className="title">Locations</h1>
-        <p className="paragraphLocations">If you are wondering where to stay, here are some suggestions</p>
+        <p className="paragraphLocations">If you are wondering where to stay, here are some suggestions: </p>
       </div>
-      <h3 className="heading-tertiary">Lisbon City</h3>
+      <h3 className="heading-tertiary">
+        Lisbon City - <span className="heading-lowercase">city break </span>
+      </h3>
       <iframe
         className="is-bordered"
         title="locations"
@@ -17,7 +19,7 @@ export default function Recommendations() {
         frameBorder="0"
         allowFullScreen=""
       />
-      <p className="paragraphLocations">We recommend the following areas</p>
+      <p className="paragraphLocations">We recommend the following areas: </p>
       <ul className="paragraph description">
         <li>Bairro Alto</li>
         <li>Lapa</li>
@@ -25,7 +27,9 @@ export default function Recommendations() {
         <li>Baixa / Chiado</li>
       </ul>
 
-      <h3 className="heading-tertiary">Cascais / Estoril</h3>
+      <h3 className="heading-tertiary">
+        Cascais / Estoril - <span className="heading-lowercase"> seaside break</span>
+      </h3>
       <iframe
         className="is-bordered"
         title="locations"
@@ -35,14 +39,11 @@ export default function Recommendations() {
         frameBorder="0"
         allowFullScreen=""
       />
-      <p className="paragraphLocations">We recommend the following areas</p>
-      <ul className="paragraph description">
-        <li>Bairro Alto</li>
-        <li>Lapa</li>
-        <li>Santos</li>
-        <li>Baixa / Chiado</li>
-      </ul>
-      <h3 className="heading-tertiary">Sintra</h3>
+      <br />
+      <br />
+      <h3 className="heading-tertiary">
+        Sintra - <span className="heading-lowercase">near the wedding venue </span>
+      </h3>
       <iframe
         className="is-bordered"
         title="locations"

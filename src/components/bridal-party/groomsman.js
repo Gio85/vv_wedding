@@ -26,7 +26,7 @@ export const Groomsman = () => {
         <div className="column">
           <h3 className="heading-tertiary">Giovanni</h3>
           <div className="image bridal_image">
-            <img className="is-rounded" src="/images/grooms_man/giovanni.jpg" alt="giovanni" />
+            <img className="is-rounded" src="/images/grooms_man/giovanni2.JPG" alt="giovanni" />
           </div>
         </div>
         <div className="column">
