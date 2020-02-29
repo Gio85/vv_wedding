@@ -21,7 +21,7 @@ export default function Recommendations() {
       />
       <p className="paragraphLocations">We recommend the following areas: </p>
       <ul className="paragraph description">
-        <li>Bairro Alto</li>
+        <li>Campo de Ourique</li>
         <li>Lapa</li>
         <li>Santos</li>
         <li>Baixa / Chiado</li>

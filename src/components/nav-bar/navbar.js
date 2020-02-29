@@ -19,9 +19,9 @@ export function Navbar() {
         aria-expanded="false"
         onClick={() => toggleClass()}
       >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
       </NavLink>
       <div id="navbarBasicExample" className={!isActive ? 'navbar-menu' : 'navbar-menu is-active'}>
         <div className="navbar-start">

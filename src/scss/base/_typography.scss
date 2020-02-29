@@ -1,62 +1,18 @@
 body {
-  //font-family: 'Aldrich', sans-serif;
   font-weight: 400;
-  /* font-size: 16px; */
   line-height: 1.7;
-  //color: $color-grey-dark;
-}
-
-.heading-primary {
-  color: $color-white;
-  text-transform: uppercase;
-
-  /* to fix the little shake of the animation */
-  backface-visibility: hidden;
-  /* *** */
-  margin-bottom: 4rem;
-
-  &--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    // letter-spacing: 3.5rem;
-
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    /* animation-iteration-count: 3; */
-    /* animation-delay: 3s; */
-    //@include respond(phone) {
-    //    letter-spacing: 1rem;
-    //    font-size: 3.5rem;
-    //}
-  }
-
-  &--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    // letter-spacing: 1.75rem;
-
-    animation: moveInRight 1s ease-in-out;
-    //
-    //@include respond(phone) {
-    //    letter-spacing: 0.5rem;
-    //    font-size: 1.5rem;
-    //}
-  }
 }
 
 .heading-secondary {
   font-size: 3rem;
   font-weight: 700;
   display: inline-block;
-  //@include respond(tab-port) {
-  //    font-size: 3rem;
-  //}
-  //@include respond(phone) {
-  //    font-size: 2rem;
-  //}
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+  @include respond(phone) {
+    font-size: 2rem;
+  }
 }
 
 .heading-tertiary {
@@ -116,4 +72,8 @@ body {
 }
 .bold {
   font-weight: bold;
+}
+
+.emailUs {
+  font-size: 2rem;
 }
