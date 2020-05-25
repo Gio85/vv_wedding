@@ -35,7 +35,7 @@ export function Navbar() {
             Bridal Party
           </NavLink>
           <NavLink to="/wedding_itinerary" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
-            4th July 2020
+            2nd July 2021
           </NavLink>
           <NavLink to="/recommendations" className="navbar-item" onClick={() => toggleClass()} activeClassName="currentPage">
             Where to stay
