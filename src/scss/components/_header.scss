@@ -1,0 +1,32 @@
+.slide-container {
+  width: 100%;
+  margin: auto;
+  @include respond(tab-scape) {
+    width: 90%;
+  }
+}
+
+.each-slide > div {
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 70vh;
+  border-radius: 20px;
+
+  @include respond(tab-scape) {
+    height: 65vh;
+  }
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  margin: 0 auto;
+  width: 70%;
+  overflow: hidden;
+}

@@ -32,18 +32,22 @@
   position: relative;
   padding-bottom: 100%;
   margin-top: 0;
+
   @include respond(tab-scape) {
-    margin-top: 0px;
+    margin-top: 0;
   }
-  @include respond(tab-port) {
-  }
+
   @include respond(phone) {
     margin-top: -70px;
   }
+
   & iframe {
     position: absolute;
-    top: 15%;
+    top: 13%;
     width: 100%;
     height: 69%;
+    @include respond(tab-scape) {
+      width: 95%;
+    }
   }
 }
