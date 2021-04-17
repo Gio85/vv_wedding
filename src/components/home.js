@@ -1,5 +1,5 @@
 import React from 'react'
-import { CountdownTimer } from '../components/countdown'
+import { CountdownTimer } from './countdown'
 
 export default function Home() {
   return (

@@ -76,9 +76,9 @@ export default function SlideShow() {
       <div className="slide-container">
         <Fade {...fadeProperties}>
           {slideImages &&
-            slideImages.map(image => {
+            slideImages.map((image, i) => {
               return (
-                <div className="each-slide">
+                <div key={i} className="each-slide">
                   <div style={{ backgroundImage: `url(${image})` }} />
                 </div>
               )

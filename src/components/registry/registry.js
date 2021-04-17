@@ -20,14 +20,14 @@ export default function Registry() {
         </span>
         <p>
           <span className="bold">Beneficiary: </span>
-          Vincenzo Vessichelli
+          Vera Castro Freire
         </p>
         <p>
           <span className="bold">IBAN: </span>
-          GB39 REVO 0099 7061 1818 33
+          GB59 SRLG 6083 7190 2680 29
         </p>
         <p>
-          <span className="bold">BIC: </span> REVOGB21
+          <span className="bold">BIC/SWIFT: </span> SRLGGB3L
         </p>
       </div>
 
@@ -40,11 +40,11 @@ export default function Registry() {
           <span className="bold">Beneficiary: </span> Vincenzo Vessichelli
         </p>
         <p>
-          <span className="bold">Account: </span> 09685146
+          <span className="bold">Account: </span> 46997228
         </p>
         <p>
           {' '}
-          <span className="bold">Sort Code: </span> 04-00-75{' '}
+          <span className="bold">Sort Code: </span> 60-83-71{' '}
         </p>
       </div>
     </section>

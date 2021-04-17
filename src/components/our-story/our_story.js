@@ -46,7 +46,7 @@ export default function OurStory() {
         <p className="storyParagraph">The destiny finally worked in their favour.</p>
         <br />
         <br />
-        <p className="storyParagraph">Fast forward 7 years later, off they go to embark in yet another adventure</p>
+        <p className="storyParagraph">Fast forward 8 years later, off they go to embark in yet another adventure</p>
         <p className="storyParagraph"> and live the rest of their lives together!</p>
       </div>
       <div id="heart" />
