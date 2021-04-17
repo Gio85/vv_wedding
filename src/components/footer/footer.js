@@ -7,7 +7,7 @@ export const Footer = () => {
         <p className="paragraph">
           Made with{' '}
           <span role="img" aria-label="laptop">
-            👨🏼‍💻
+            ♥️
           </span>{' '}
           by{' '}
           <a href="http://www.giovannigaliero.co.uk/" rel="noopener noreferrer" target="_blank">
